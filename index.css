@@ -19,11 +19,12 @@ body {
 
 .main a{
     color: rgb(102, 177, 238);
+    padding:3.5%;
+    display: inline-block;
 }
 
 .main li{
     border-bottom: 1px solid #9c9ca0;
-    padding: 3.5%; 
 }
 
 .main {
@@ -63,6 +64,11 @@ svg {
     background-color: #6799ff;
     height: 3px;
     margin-bottom: 5px;
+}
+
+.courses-nav , .how-it-works-nav {
+    background-color:rgb(196, 230, 250);
+    width:100%;
 }
 
 ul {
