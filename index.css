@@ -13,6 +13,10 @@ body {
     flex-direction: column;
 }
 
+.hide{
+    display:none;
+}
+
 .main a{
     color: rgb(102, 177, 238);
 }
