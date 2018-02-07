@@ -10,7 +10,7 @@
   <body>
     <container class='top-elements'>
     <!-- Hamburger button -->
-    <div class="hamburger top-child" onclick="toggleMenu()" >
+    <div class="hamburger top-child">
       <div class="hamburger-stripe"></div>
       <div class="hamburger-stripe"></div>
       <div class="hamburger-stripe"></div>
@@ -106,18 +106,8 @@
         </li>
       </ul>
     </nav>
-    <script>
-      function toggleMenu() {
-       let element = document.getElementById("main-menu-nav");
-       if (element.getAttribute("class")=== "hidden"){
-        element.setAttribute("class", "active");
-        console.log('if block');
-       }
-       else {
-         element.setAttribute("class", "hidden");
-         console.log('else block');
-       }
-      }
-    </script>
+    <script src='http://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='./index.js'></script>
+    
   </body>
 </html>

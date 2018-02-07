@@ -65,6 +65,34 @@ svg {
     margin-bottom: 5px;
 }
 
+ul {
+    padding: 0;
+}
+
+.courses-nav ul, .how-it-works-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.courses-nav li, .how-it-works-nav li{
+    padding: .5em;
+    text-transform: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-nav a, .how-it-works-nav a{
+    color: black;
+}
+/* a {
+    padding: 1em, 0, 0;
+} */
+
+img {
+    display: none;
+}
+
 .hidden {
     display: none;
 }
